@@ -1,0 +1,138 @@
+/* Generelt */
+body {
+	margin: 0;
+	padding: 0;
+	background-color: #fff;
+	/*background-color: #eaeaea;*/
+	font-size: 1rem;
+    font-family: Roboto,Helvetica Neue,sans-serif;
+    color: #303030;
+}
+
+h1.title {
+	font-size: 3rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: Montserrat,Helvetica Neue,sans-serif;
+	font-style: normal;
+	font-weight: 500;
+}
+
+img {
+	margin: 0 auto;
+}
+
+#main {
+	background-color: #ffffff;
+	margin: 67px 50px 50px 50px;
+}
+
+/* Meny */
+.meny {
+	background-color: #303030;
+}
+
+ul.nav {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	background-color: #303030;
+}
+
+ul.nav li {
+	float: left;
+	border-right: 1px solid #eaeaea;
+}
+
+ul.nav li:last-child {
+	border-right: none;
+}
+
+ul.nav li a {
+	display: block;
+	color: #fff;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+ul.nav li a:hover {
+	background-color: #b9e1cc;
+}
+
+/* Content */
+.content {
+	padding: 20px 0;
+	display: flex;
+	flex-direction: column;
+}
+
+.content .content-row {
+	display: inline-flex;
+	gap: 10px 20px;
+	margin: 0 0 20px 0;
+}
+
+.content .ab-bhg {
+	background-color: #b9e1cc;
+	padding: 10px 20px;
+}
+
+.content .ab-gsk {
+	background-color: #b9e1cc;
+	padding: 10px 20px;
+}
+
+.content .ab-vgo {
+	background-color: #b9e1cc;
+	padding: 10px 20px;
+}
+
+.content .ab-foy {
+	background-color: #b9e1cc;
+	padding: 10px 20px;
+}
+
+.content .mtr-gsk {
+	background-color: #bac6d8;
+	padding: 10px 20px;
+}
+
+.content .mtr-vgo {
+	background-color: #bac6d8;
+	padding: 10px 20px;
+}
+
+.content .mer {
+	background-color: #f2e8da;
+	padding: 10px 20px;
+}
+
+/* Footer */
+.footer {
+	width: 100%;
+	background-color: #303030;
+	color: #fff;
+	text-align: center;
+	margin: 0;
+	padding: 20px 0;
+}
+
+.footer .footer-nav {
+}
+
+.footer .footer-nav a {
+	color: #fff;
+	text-align: center;
+	padding: 0px 16px;
+	text-decoration: none;
+}
+
+.footer .footer-nav a:hover {
+	color: #b9e1cc;
+}
